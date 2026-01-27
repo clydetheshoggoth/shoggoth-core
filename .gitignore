@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Environment secrets
+.twitter-auth.env
+*.env
+.env.*
+
+# Data (large files, keep local)
+data/*.json
+data/*.csv
+
+# Memory (personal, keep local)
+memory/*.md
+
+# Session cache
+.clawdhub/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Canvas temp
+canvas/temp/
+
+# Voice recordings
+voice-calls/*.mp3
+voice-calls/*.wav
+voice-calls/*.webm
