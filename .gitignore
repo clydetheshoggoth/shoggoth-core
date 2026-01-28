@@ -6,6 +6,13 @@ node_modules/
 *.env
 .env.*
 
+# Secret files (stored in home directory, not committed)
+.github-token
+.github-password
+.twitter-auth
+.gemini-api-key
+.openai-api-key
+
 # Data (large files, keep local)
 data/*.json
 data/*.csv
@@ -37,3 +44,4 @@ canvas/temp/
 voice-calls/*.mp3
 voice-calls/*.wav
 voice-calls/*.webm
+.secrets-setup.sh

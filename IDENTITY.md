@@ -11,6 +11,8 @@
 **Email:** shoggothbyleviath@gmail.com
 **Password:** shoggothclydedotcom42
 
-**GitHub:** @Clyde-by-Leviath (authenticated via gh CLI)
+**GitHub:** @clydetheshoggoth
+- Email: clyde@agentmail.to
+- Password: T#slestial369
 **X/Twitter:** same email & password
 **Git:** configured, `gh` CLI installed and authenticated
