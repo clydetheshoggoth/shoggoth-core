@@ -5,13 +5,13 @@
 ## Morning Market Check (6:30 AM UTC)
 Run the market swing monitor to detect large price movements:
 ```bash
-cd /home/ubuntu/clawd && DATA_SOURCE=yahoo node scripts/market-swing-monitor.js
+cd /home/ubuntu/clawd && DATA_SOURCE=yahoo node Projects/scripts/market-swing-monitor.js
 ```
 
-## Afternoon Options Analysis (1:35 PM UTC)  
+## Afternoon Options Analysis (1:35 PM UTC)
 Run SPX 0DTE options analyzer for same-day Reverse Iron Condor viability:
 ```bash
-cd /home/ubuntu/clawd && node scripts/spx-0dte-analyzer.js
+cd /home/ubuntu/clawd && node Projects/scripts/spx-0dte-analyzer.js
 ```
 
 ## Notes

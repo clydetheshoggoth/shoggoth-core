@@ -14,8 +14,8 @@ node_modules/
 .openai-api-key
 
 # Data (large files, keep local)
-data/*.json
-data/*.csv
+Projects/data/*.json
+Projects/data/*.csv
 
 # Memory (personal, keep local)
 memory/*.md
@@ -38,10 +38,11 @@ logs/
 Thumbs.db
 
 # Canvas temp
-canvas/temp/
+Projects/canvas/temp/
 
 # Voice recordings
-voice-calls/*.mp3
-voice-calls/*.wav
-voice-calls/*.webm
+Videos/voice-calls/*.mp3
+Videos/voice-calls/*.wav
+Videos/voice-calls/*.webm
 .secrets-setup.sh
+Projects/skills/claude-constitution-injector/

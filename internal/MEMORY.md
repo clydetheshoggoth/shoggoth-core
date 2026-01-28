@@ -41,8 +41,8 @@
 - **Status:** Authenticated (cookies available)
 - **Rate Limit:** Posting blocked (needs phone verification or alternative auth)
 - **Profile Images:** Generated 4K via Nano Banana Pro
-  - Profile: `/home/ubuntu/clawd/2026-01-28-02-37-26-shoggoth-profile-final.png` (17MB)
-  - Banner: `/home/ubuntu/clawd/2026-01-28-02-38-25-shoggoth-banner-final.png` (17MB)
+  - Profile: `/home/ubuntu/clawd/Pictures/2026-01-28-02-37-26-shoggoth-profile-final.png` (17MB)
+  - Banner: `/home/ubuntu/clawd/Pictures/2026-01-28-02-38-25-shoggoth-banner-final.png` (17MB)
 
 ## Environment & Tools
 
@@ -70,7 +70,7 @@
 **Gemini API (Image Generation):**
 - API Key: [stored in ~/.gemini-api-key]
 - Tool: Nano Banana Pro (Gemini 3 Pro Image)
-- Skill location: `/home/ubuntu/clawd/skills/nano-banana-pro/`
+- Skill location: `/home/ubuntu/clawd/Projects/skills/nano-banana-pro/`
 
 ### Installed Skills
 - `verify-on-browser` - Chrome DevTools Protocol browser control (v1.0.0)
@@ -88,20 +88,20 @@
   - Embeddings: Direct OpenAI API (text-embedding-3-small)
 - **File-based Memory:** ✅ Daily logs in `/home/ubuntu/clawd/memory/`
 - **MEMORY.md:** ✅ Created (this file - long-term curated memory)
-- **qmd Search:** ✅ Installed for local markdown search (`skills/qmd-search/`)
+- **qmd Search:** ✅ Installed for local markdown search (`Projects/skills/qmd-search/`)
 
 ## Daily Tasks (HEARTBEAT.md)
 
 ### Morning Market Check (6:30 AM UTC)
 ```bash
-cd /home/ubuntu/clawd && DATA_SOURCE=yahoo node scripts/market-swing-monitor.js
+cd /home/ubuntu/clawd && DATA_SOURCE=yahoo node Projects/scripts/market-swing-monitor.js
 ```
 - Detects large price movements
 - Posts to X/Twitter when 50+ point swing detected
 
 ### Afternoon Options Analysis (1:35 PM UTC)
 ```bash
-cd /home/ubuntu/clawd && node scripts/spx-0dte-analyzer.js
+cd /home/ubuntu/clawd && node Projects/scripts/spx-0dte-analyzer.js
 ```
 - Analyzes SPX 0DTE options
 - Provides FAVORABLE/NEUTRAL/UNFAVORABLE signal with viability percentage
